@@ -1,0 +1,145 @@
+body{
+  font-family:"Montserrat";
+}
+
+
+h1{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  padding: 30px 0 30px 0;
+}
+h2{
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+h3{
+  font-size: 2.5rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 1.5;
+
+}
+p{
+  color: #8f8f8f;
+}
+/* title */
+#title{
+  background-color: #ff4c68;
+}
+.container-fluid{
+  padding: 3% 15% 5%;
+}
+/* features section */
+#features{
+   position: relative;
+  /*z-index: 1; */
+  padding: 7% 15%;
+  text-align: center;
+  background-color:#fff;
+}
+.icon{
+  color: #ef8172;
+   padding-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* navigation bar */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+}
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+.nav-item{
+  padding: 0 18px;
+
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat-light;
+}
+/* download button */
+ .download-button{
+   margin:5% 3% 7% 0;
+ }
+/* title image */
+.title-image{
+  position: absolute;
+  left: 10%;
+  padding-left: 30px;
+  width:70%;
+  transform: rotate(25deg);
+}
+/* testimonial-section */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image{
+  border-radius: 100%;
+  margin:20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+/* pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.price-box{
+  padding: 3% 2%;
+}
+/*bottom dowload section*/
+#cta{
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+.cta-heading{
+  font-size: 3.5rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  padding:5% 10% 2%;
+}
+.b-icons{
+  margin: 30px 10px;
+}
+.b-icons:hover{
+  color:  #ff4c68;
+}
+/* media query */
+@media (max-width:1048px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
